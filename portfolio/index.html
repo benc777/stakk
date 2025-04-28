@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accelerator - The Blox</title>  
+    <meta name="description" content="In the business of building businesses since 2013. $100M+ revenue generated. 450+ B2B global clients. 25+ startups backed. $40M+ raised.">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+
+    <!-- Canonical URL-->
+    <link rel="canonical" href="https://stakkventures.xyz/accelerator">
+    
+    <!-- Open Graph-->
+    <meta property="og:title" content="Stakk Ventures">
+    <meta property="og:description" content="In the business of building businesses since 2013. $100M+ revenue generated. 450+ B2B global clients. 25+ startups backed. $40M+ raised.">
+    <meta property="og:image" content="https://stakkventures.xyz/assets/thumbnail.png">
+    <meta property="og:url" content="https://stakkventures.xyz/">
+    <meta property="og:type" content="website">
+    
+  
+    <link rel="stylesheet" href="../css/style.css">
+   
+  
+</head>
+<body>
+<div style="padding-left:20px;padding-right:20px;">
+
+  <header>
+    <!-- Left side: Logo -->
+    <div class="logo-container">
+      <a href="/" style="text-decoration: none;">
+        <img src="../assets/logo-stakk-ventures-black.svg" alt="Stakk Ventures Logo" class="logo-light" style="height: 32px;">
+        <img src="../assets/logo-stakk-ventures-white.svg" alt="Stakk Ventures Logo" class="logo-dark" style="height: 32px;">
+      </a>
+    </div>
+
+    <!-- Right side: Navigation links + Hamburger menu -->
+    <div style="display: flex; align-items: center; gap: 20px;">
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" style="display: flex; align-items: center; gap: 20px;">
+
+        <a href="/portfolio" class="nav-link">Portfolio</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="mailto:hello@stakkventures.xyz" class="nav-link">Contact</a>
+        <button class="toggle-button" onclick="toggleDarkMode()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
+            <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707M3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707"/>
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Hamburger Menu Icon -->
+      <button class="hamburger-menu" onclick="toggleMobileMenu()" style="color:var(--text-color);background: none; border: none; cursor: pointer; display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu">
+    <nav style="display: flex; flex-direction: column; gap: 10px;">
+      <button style="margin-left: 0;" class="toggle-button" onclick="toggleDarkMode()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
+          <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707M3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707"/>
+        </svg>
+      </button>
+      <a href="/portfolio" class="nav-link">Portfolio</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="mailto:hello@stakkventures.xyz" class="nav-link">Contact</a>
+     
+    </nav>
+  </div>
+  <div class="container">
+    <div style="display: flex; justify-content: center; padding-top: 60px;">
+      <div class="venture-positions" style="max-width: 543px; width: 100%;  text-align: left;
+      align-items: flex-start;
+      align-content: center;
+      display: flex;
+      flex-direction: column;">
+
+<h1>Portfolio</h1>
+        <p class="paragraph-about">Some companies highlighted may have since evolved, merged, or closed. 
+          They are presented to reflect our ongoing commitment to building and learning efforts over time.</p>
+        <h2>Incubator</h2>
+        <div class="venture-list">
+          <div class="venture-item">
+            <a href="https://skipthehype.com">Skip The Hype</a>
+            <span>GTM growth</span>
+            <span>100+ B2B clients onboarded</span>
+           
+          </div>
+          <div class="venture-item">
+            <a href="https://theblox.co/">The Blox</a>
+            <span>Startup accelerator</span>
+            <span>25 startups accelerated, +$40M raised</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://sourcing-force.com/en/">Sourcing Force</a>
+            <span>S2P SaaS</span>
+            <span>Made the Financial Times 1000 Europe</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://buymadeeasy.com/en/">Buy Made Easy</a>
+            <span>Procurement BPO</span>
+            <span>Currently generating $20M ARR</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://entrepreneurs.lesechos.fr/developpement-entreprise/commercial-marketing/agilite-buy-made-easy-rebondit-sur-la-crise-du-covid-19-2018339">BME Care</a>
+            <span>B2B eCommerce</span>
+            <span>Merged, bootstrapped to $7M in revenue</span>
+          </div>
+        </div>
+  
+       
+  
+        <h2 style="margin-top: 10px;">Accelerator</h2>
+        <div class="venture-list">
+          <div class="venture-item">
+            <a href="https://www.kboom.gg/">KBoom</a>
+            <span>eSports management</span>
+            <span>$1M raised, backed by BeamHub, Galions</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://lawyerd.net/">Lawyerd</a>
+            <span>IP protection SaaS</span>
+            <span>Backed by Techstars, CVVC</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://www.kamealabs.com/en">Kamea Labs</a>
+            <span>Fundraising platform</span>
+            <span>$600K raised, backed by 50 Partners</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://www.ternoa.network/">Ternoa</a>
+            <span>Blockchain L1</span>
+            <span>$8M raised, backed by DFG Group, ArkStream</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://smartlink.so/">Smartlink</a>
+            <span>Web3 escrow payment</span>
+            <span>$3M raised, backed by Tezos</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://github.com/VortexAMM/python-dex-contract">Vortex</a>
+            <span>DeFi protocol</span>
+            <span>Backed by Tezos, acquired by Pyratz Labs</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://www.agorahub.io/">Agora</a>
+            <span>GameFi aggregator</span>
+            <span>Raised $2M, backed by Swissborg</span>
+          </div>
+         
+          <div class="venture-item">
+            <a href="https://astromust.com/">Astromust</a>
+            <span>Mobile game</span>
+            <span>Raised $540K, backed by Exclusible, Ternoa</span>
+          </div>
+         
+          
+          <div class="venture-item">
+            <a href="https://www.securd.org/">Securd</a>
+            <span>DeFi protocol</span>
+            <span>Backed by Pyratz Labs</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://x.com/Arcad3___">Arcad3</a>
+            <span>Web3 Game</span>
+            <span>Deadpooled</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://uploads-ssl.webflow.com/6224a9b9c1aad579102aa35b/6224f99747118021a9924a76_wp_2%20(3).pdf">Jaypigs</a>
+            <span>NFT Lending protocol</span>
+            <span>Backed by Axelar</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://x.com/untitled_rehab">Untitled</a>
+            <span>Creator economy</span>
+            <span>Deadpooled</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://www.plpartners.co/en/en">P&L Partners</a>
+            <span>Accounting firm</span>
+            <span>Exited</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://x.com/thekryptview?lang=en">Kryptview</a>
+            <span>Web3 Analytics</span>
+            <span>Raised $1.2M, backed by Bitpanda, GSR, KuCoin</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://x.com/Airpencc">Airpen</a>
+            <span>Publishing platform</span>
+            <span>Backed by Ternoa</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Procs</a>
+            <span>Procure-to-Pay SaaS</span>
+            <span>Merged with Sourcing Force</span>
+          </div>
+          <div class="venture-item">
+            <a href="">Metamotorshow</a>
+            <span>Metaverse</span>
+            <span>Deadpooled</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://hackmd.io/@TZ-Connect/SJe8UyMsK">Stone Age</a>
+            <span>Web3 Game</span>
+            <span>Won Tezos Gitcoin hackathon</span>
+          </div>
+          <div class="venture-item">
+            <a href="">Wise</a>
+            <span>NFT protocol</span>
+            <span>Merged</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://mytvchain.io/">MyTVchain</a>
+            <span>Fan-to-earn</span>
+            <span>Raised $1.2M, backed by GSR, Hasheur</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://github.com/hashi-protocol/hashi-app">Hashi</a>
+            <span>DeFi protocol</span>
+            <span>Won Tezos hackathon</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://www.f6s.com/company/voxoto">Voxoto</a>
+            <span>3D Assets</span>
+            <span>Sunset</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Bloometa</a>
+            <span>NFT Marketplace</span>
+            <span>Raised $500K, backed by Pyratz Labs</span>
+          </div>
+    
+        </div>
+  
+       
+  
+        <h2 style="margin-top: 10px;">Venture</h2>
+        <div class="venture-list">
+          <div class="venture-item">
+            <a href="https://cedehub.io/index.html">Cede Labs</a>
+            <span>Wallet infrastructure</span>
+            <span>$1.5M raised, backed by Ledger, Station F, GSR</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://www.mylovelyplanet.org/">My Lovely Planet</a>
+            <span>Mobile game</span>
+            <span>$3M raised, backed by Ubisoft, Station F</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://dogami.com/">Dogami</a>
+            <span>Mobile game</span>
+            <span>$14M raised, backed by Animoca Brands, Ubisoft</span>
+          </div>
+          <div style="margin-top: 90px;"></div>
+        </div>
+  
+      </div></div>
+
+
+
+<footer>
+    <div class="footer-left">
+      <h2>Stakk Ventures</h2>
+      <a href="#">Legal Notices & Terms of Use</a>
+      <div class="disclaimer">
+        *The investments and companies referenced are for informational use only and are not a full listing. Nothing contained herein should be construed as an offer, solicitation, or investment advice.
+      </div>
+      <p>&copy; <span id="year"></span> Stakk Ventures. All rights reserved.</p>
+     
+    </div>
+    <div class="footer-right">
+      <p><a href="mailto:hello@stakkventures.xyz">hello@stakkventures.xyz</a></p>
+      <div class="footer-icons">
+        <a href=  "https://x.com/benconstanty" target="_blank" rel="noopener noreferrer"> 
+         
+        <!-- X (Twitter) logo -->
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      <a href= "https://www.linkedin.com/company/stakk-ventures/" target="_blank" rel="noopener noreferrer">
+  
+        <!-- LinkedIn logo -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+      </a>
+      </div>    
+    </div>
+  </footer>
+</div>
+
+
+<script src="../scripts/dark_mode.js"></script>
+</body>
+</html>

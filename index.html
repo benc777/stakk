@@ -4,145 +4,268 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stakk Ventures</title>  
-    <meta name="description" content="Been in the game since 2011. Started a handful of companies. Some bootstrapped, some funded. Some worked out, some were just meh.
-    Building is the only constant.">
-    
+    <meta name="description" content="In the business of building businesses since 2013. $100M+ revenue generated. 450+ B2B global clients. 25+ startups backed. $40M+ raised.">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
     <!-- Canonical URL-->
     <link rel="canonical" href="https://stakkventures.xyz/">
     
     <!-- Open Graph-->
     <meta property="og:title" content="Stakk Ventures">
-    <meta property="og:description" content="Time to cook. Been in the game since 2011. Started a handful of companies. $100M+ in revenue. Some bootstrapped, some funded. Some worked out, some were just meh.">
-    <meta property="og:image" content="https://benconstanty.com/assets/twitterben.png">
-    <meta property="og:url" content="https://stakkventures.xyz//">
+    <meta property="og:description" content="In the business of building businesses since 2013. $100M+ revenue generated. 450+ B2B global clients. 25+ startups backed. $40M+ raised.">
+    <meta property="og:image" content="https://stakkventures.xyz/assets/thumbnail.png">
+    <meta property="og:url" content="https://stakkventures.xyz/">
     <meta property="og:type" content="website">
     
-    
-    <!-- Structured Data -->
+    <!-- Structured data-->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Ben Constanty",
-        "url": "https://benconstanty.com",
-        "image": "https://benconstanty.com/assets/benconstanty.png",
-        "description": "Entrepreneur focused on tech, startups, and venture capital.",
-        "jobTitle": ["Entrepreneur", "Investor", "Founder"],
+        "@type": "Organization",
+        "name": "Stakk Ventures",
+        "url": "https://stakkventures.xyz",
+        "logo": "https://stakkventures.xyz/assets/logo-stakk-ventures-black.svg",
+        "description": "In the business of building businesses since 2013. $100M+ revenue generated. 450+ B2B global clients. 25+ startups backed. $40M+ raised.",
         "sameAs": [
-          "https://www.linkedin.com/in/ben-constanty/",
-          "https://x.com/benconstanty",
-          "https://www.skipthehype.com"
+          "https://www.linkedin.com/company/stakk-ventures/",
+          "https://x.com/benconstanty"
         ],
-        "worksFor": [
-          {
-            "@type": "Organization",
-            "name": "Skip The Hype",
-            "url": "https://www.skipthehype.com"
-          },
-          {
-            "@type": "Organization",
-            "name": "Stakk Ventures",
-            "url": "https://stakk.ventures"
-          }
-        ],
-        "alumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "Bordeaux University",
-          "url": "https://www.u-bordeaux.fr/"
+        "founder": {
+          "@type": "Person",
+          "name": "Ben Constanty",
+          "url": "https://benconstanty.com"
         },
-        "knowsAbout": [
-          "Venture Capital",
-          "Tech Startups",
-          "Growth",
-          "SaaS",
-          "Finance",
-          "Blockchain",
-          "AI"
-        ],
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Entrepreneur"
+        "foundingDate": "2023",
+        "foundingLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Toronto",
+            "addressRegion": "Ontario",
+            "addressCountry": "Canada"
+          }
         }
       }
       </script>
-
+      
     <link rel="stylesheet" href="css/style.css">
   
 </head>
 <body>
+<div style="padding-left:20px;padding-right:20px;">
 
-<nav>
-  <a href="#">Venture</a>
-  <a href="#">Crypto</a>
-  <a href="#">Incubations</a>
-  <a href="#">Essays</a>
-  <a href="#">About</a>
-  <button class="toggle-button" onclick="toggleDarkMode()">☀️</button>
-</nav>
+  <header>
+    <!-- Left side: Logo -->
+    <div class="logo-container">
+      <a href="/" style="text-decoration: none;">
+        <img src="../assets/logo-stakk-ventures-black.svg" alt="Stakk Ventures Logo" class="logo-light" style="height: 32px;">
+        <img src="../assets/logo-stakk-ventures-white.svg" alt="Stakk Ventures Logo" class="logo-dark" style="height: 32px;">
+      </a>
+    </div>
+
+    <!-- Right side: Navigation links + Hamburger menu -->
+    <div style="display: flex; align-items: center; gap: 20px;">
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" style="display: flex; align-items: center; gap: 20px;">
+
+        <a href="/portfolio" class="nav-link">Portfolio</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="mailto:hello@stakkventures.xyz" class="nav-link">Contact</a>
+        <button class="toggle-button" onclick="toggleDarkMode()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
+            <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707M3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707"/>
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Hamburger Menu Icon -->
+      <button class="hamburger-menu" onclick="toggleMobileMenu()" style="color:var(--text-color);background: none; border: none; cursor: pointer; display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu">
+    <nav style="display: flex; flex-direction: column; gap: 10px;">
+      <button style="margin-left: 0;" class="toggle-button" onclick="toggleDarkMode()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
+          <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707m7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707M3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707"/>
+        </svg>
+      </button>
+      <a href="/portfolio" class="nav-link">Portfolio</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="mailto:hello@stakkventures.xyz" class="nav-link">Contact</a>
+     
+    </nav>
+  </div>
 
 <div class="container">
   <div class="hero">
     <div class="left-column">
-      <h1>Stakk Ventures</h1>
+      <div class="separator-one">
+        <h1 style="display: none;">Stakk Ventures</h1>
+      
+    </div>
       <p class="small-text">Toronto, Ontario — Canada</p>
-      <p>Since our first startup’s inception in 2012, we've been obsessed with venture building. Our humble beginning has now grown into a multi-brand portfolio and a cumulative generated revenue of $70 million. </p>
-      <div style="margin-top:20px;display: flex;flex-direction: column;align-items: flex-start;"><a class="btn" href="#">LEARN MORE</a>
-      <img style="width:500px;" src="https://videos.openai.com/vg-assets/assets%2Ftask_01jst9e32dfyas2mqtntfy8n4p%2F1745712835_img_0.webp?st=2025-04-26T22%3A56%3A12Z&se=2025-05-02T23%3A56%3A12Z&sks=b&skt=2025-04-26T22%3A56%3A12Z&ske=2025-05-02T23%3A56%3A12Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=3d249c53-07fa-4ba4-9b65-0bf8eb4ea46a&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=w%2Fw1mjoQ%2FgDGm%2FIx0xRVp3xfInNu3uZ%2FHkq1q4e1060%3D&az=oaivgprodscus" alt="Company Image" class="company-image">
+      <p class="mid-text">In the business of building businesses since 2013. <br>$100M+ revenue generated. 450+ B2B global clients. <br>25+ startups backed. $40M+ raised.</p>
+      <div style="margin-top:20px;display: flex;flex-direction: column;align-items: flex-start;"><a class="btn" href="/about">LEARN MORE →</a>
+      <img src="assets/stakk-ventures.png" alt="Company Image" class="company-image">
     </div>
     
   </div>
     <div class="right-column">
-      <div style="margin-top: 40px;"></div>
+      <div class="separator"></div>
       <div class="venture-positions">
-        <h2>Select Venture Positions</h2>
-        <ul>
-       
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Shiprocket</a> — Enterprise Software</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Carta</a> — Enterprise Software</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Apollo.io</a> — Enterprise Software</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Kraken</a> — Enterprise Fintech</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Docker</a> — Enterprise Software</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Commure</a> — Healthcare </li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Cern</a> — Enterprise Software</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Instabase</a> — Enterprise Software</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Alpaca DB</a> — Enterprise Fintech</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Republic</a> — Consumer Fintech</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Kapital</a> — Enterprise Fintech</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Hone</a> — Consumer Healthcare</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Rula</a> — Healthcare</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Chipper Cash</a> — Consumer Fintech</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Ashvattha</a> — Life Sciences</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Place Exchange</a> — Enterprise Software</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Griffin Bank</a> — Enterprise Fintech</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Relay</a> — Enterprise Fintech</li>
-            <li><img src="https://via.placeholder.com/20" alt="Logo"><a href="#">Airtable</a> — Enterprise Software</li>
-          
-        </ul>
-      </div>
+        <h2>Incubator</h2>
+        <div class="venture-list">
+          <div class="venture-item">
+            <a href="https://skipthehype.com">Skip The Hype</a>
+            <span>GTM growth</span>
+            <span>100+ B2B clients onboarded</span>
+           
+          </div>
+          <div class="venture-item">
+            <a href="https://theblox.co/">The Blox</a>
+            <span>Startup accelerator</span>
+            <span>25 startups accelerated, +$40M raised</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://sourcing-force.com/en/">Sourcing Force</a>
+            <span>S2P SaaS</span>
+            <span>Made the Financial Times 1000 Europe</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://buymadeeasy.com/en/">Buy Made Easy</a>
+            <span>Procurement BPO</span>
+            <span>Currently generating $20M ARR</span>
+          </div>
+          <div class="venture-item">
+            <a href="https://entrepreneurs.lesechos.fr/developpement-entreprise/commercial-marketing/agilite-buy-made-easy-rebondit-sur-la-crise-du-covid-19-2018339">BME Care</a>
+            <span>B2B eCommerce</span>
+            <span>Merged, bootstrapped to $7M in revenue</span>
+          </div>
+        </div>
+        
+        
+        
+        
 
+            <a class="links" href="/portfolio">
+              View more
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="arrow-icon" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+              </svg>
+            </a>
+
+        <h2 style="margin-top:30px;">Accelerator</h2>
+        <div class="venture-list">
+          <div class="venture-item">
+            <a href="#">KBoom</a>
+            <span>eSports management</span>
+            <span>$1M raised, backed by BeamHub, Gamers Origin</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Lawyerd</a>
+            <span>IP protection SaaS</span>
+            <span>Backed by Techstars, CVVC</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Kamea Labs</a>
+            <span>Fundraising platform</span>
+            <span>$600K raised, backed by 50 Partners</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Ternoa</a>
+            <span>Blockchain L1</span>
+            <span>$8M raised, backed by DFG Group, ArkStream</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Smartlink</a>
+            <span>Web3 escrow payment</span>
+            <span>$3M raised, backed by Tezos</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Vortex</a>
+            <span>DeFi protocol</span>
+            <span>Acquired</span>
+          </div>
+        </div>
+
+        <a class="links" href="/portfolio">
+          View more
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="arrow-icon" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+          </svg>
+        </a>
+        
+
+        <h2 style="margin-top:30px;">Venture</h2>
+        <div class="venture-list">
+          <div class="venture-item">
+            <a href="#">Cede Labs</a>
+            <span>Wallet infrastructure</span>
+            <span>$1.5M raised, backed by Ledger, Station F, GSR</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">My Lovely Planet</a>
+            <span>Mobile game</span>
+            <span>$3M raised, backed by Ubisoft, Station F</span>
+          </div>
+          <div class="venture-item">
+            <a href="#">Dogami</a>
+            <span>Mobile game</span>
+            <span>$14M raised, backed by Animoca Brands, Ubisoft</span>
+          </div>
+        </div>
+        
+        <a class="links" href="/portfolio">
+          View more
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="arrow-icon" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+          </svg>
+        </a>
+          
+      </div>
+    
     </div>
-  </div>
-</div>
+
 
 
 <footer>
-  <div class="footer-left">
-    <h2>TRIBE CAPITAL</h2>
-    <a href="#">Legal Notices & Terms of Use</a>
-    <div class="disclaimer">
-      * Any investments or portfolio companies mentioned, referred to, or described on this page are not representative of all investments in vehicles managed by Tribe Capital Management.
+    <div class="footer-left">
+      <h2>Stakk Ventures</h2>
+      <a href="#">Legal Notices & Terms of Use</a>
+      <div class="disclaimer">
+        *The investments and companies referenced are for informational use only and are not a full listing. Nothing contained herein should be construed as an offer, solicitation, or investment advice.
+      </div>
+      <p>&copy; <span id="year"></span> Stakk Ventures. All rights reserved.</p>
+     
     </div>
-    <p>&copy; 2025 Tribe Capital Management, LLC</p>
-   
-  </div>
-  <div class="footer-right">
-    <p><a href="mailto:hello@tribecap.co">hello@tribecap.co</a></p>
-    <div class="footer-icons">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="X">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+    <div class="footer-right">
+      <p><a href="mailto:hello@stakkventures.xyz">hello@stakkventures.xyz</a></p>
+      <div class="footer-icons">
+        <a href=  "https://x.com/benconstanty" target="_blank" rel="noopener noreferrer"> 
+         
+        <!-- X (Twitter) logo -->
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+      <a href= "https://www.linkedin.com/company/stakk-ventures/" target="_blank" rel="noopener noreferrer">
+  
+        <!-- LinkedIn logo -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+      </a>
+      </div>    
     </div>
-  </div>
-</footer>
+  </footer>
+</div>
 
 <script src="scripts/dark_mode.js"></script> 
 </body>
