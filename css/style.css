@@ -357,7 +357,14 @@ justify-content: left;
   font-size:11px;
 }
 
+.padd-abc{
 
+ display: flex; 
+ justify-content: center; 
+ padding-top: 60px;
+
+
+}
 
 
 .press-list {
@@ -491,7 +498,10 @@ flex-wrap: wrap;
   .logo-dark {
     margin-top: 18px;
   }
+  .review-card {
   
+    margin-bottom: 40px;
+  }
     
   nav {
     justify-content: center;
@@ -506,6 +516,7 @@ flex-wrap: wrap;
   #mobile-menu {
     display: none;
   }
+  
 }
 
 
@@ -513,7 +524,9 @@ flex-wrap: wrap;
 
   .separator{
     margin-top: 53px;
+    
   }
+  
 
 .container {
   
@@ -524,7 +537,7 @@ flex-wrap: wrap;
   margin-top: 20px;
 }
 .company-image{
-  width: 400px;
+  width: 355px;
 }
 
 header {
@@ -538,6 +551,11 @@ header {
 
 }
 
+.padd-abc {
+
+  padding-top:0px;
+}
+
 .metrics-section {
 
   flex-direction: row;
@@ -547,15 +565,26 @@ header {
 
 .about-content {
 
-  padding-top: 20px;
+  padding-top: 0px;
+  width: 100%;
 }
 
 .trusted-logos{
-  margin-bottom:75px; 
-  gap: 6px;
-  align-items: left;
-  justify-content: center;
+  margin-bottom: 25px;
+  gap: 2px;
+  justify-content: flex-start;
+
   }
+
+  .mid-text {
+    font-size: 0.9em;
+ 
+}
+
+.venture-positions{
+
+  margin-bottom: 50px;
+}
 
 
 }
