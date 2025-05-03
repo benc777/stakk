@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://stakkventures.xyz/sitemap.xml
+Sitemap: https://stakkventures.xyz/sitemap-index.xml
