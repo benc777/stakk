@@ -410,7 +410,7 @@ footer {
   color: var(--text-color);
   width: 100%;
   padding-top:20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .footer-left a, .footer-right a {
