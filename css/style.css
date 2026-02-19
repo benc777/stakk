@@ -409,8 +409,9 @@ footer {
   font-size: 0.8em;
   color: var(--text-color);
   width: 100%;
-  padding-top:20px;
-  padding-bottom: 40px;
+padding-top: 100px;
+    margin-top: 82px !important;
+    padding-bottom: 100px;
 }
 
 .footer-left a, .footer-right a {
